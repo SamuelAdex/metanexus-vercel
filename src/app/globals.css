@@ -1,0 +1,76 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --foreground-rgb: 0, 0, 0;
+  --background-start-rgb: 214, 219, 220;
+  --background-end-rgb: 255, 255, 255;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --foreground-rgb: 255, 255, 255;
+    --background-start-rgb: 0, 0, 0;
+    --background-end-rgb: 0, 0, 0;
+  }
+}
+
+body {
+  background: #090620;
+}
+
+.trade{
+  background: url('../../public/assets/svg/tradeBg.svg');
+  background-position: 30%;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.social{
+  background: url('../../public/assets/svg/socialBg.svg');
+  background-size: 90%;
+  background-position-x: 100%;
+  background-repeat: no-repeat;
+}
+
+.participate{
+  background: url('../../public/assets/svg/participateBg.svg');
+  background-size: 80%;
+  background-repeat: no-repeat;
+  background-position-x: 100%;
+}
+
+.grd{
+  background-image: linear-gradient(90deg, #64F6FF 5%, #E31CFF 100%);
+  background-clip: text;
+  color: transparent;
+}
+.grd-outline{
+  background: linear-gradient(180deg, #23A3FF 0%, #FD01F4 100%);
+  /* background: linear-gradient(-45deg, #eeaa52, #e73c6f, #2394d5, #2af3b7); */
+  background-size: 200% 200%;
+  -webkit-background-clip: text;
+  -webkit-text-stroke: 8px transparent;
+  color: white;
+}
+
+@layer utilities {
+  .text-balance {
+    text-wrap: balance;
+  }
+}
+
+
+.house{
+  animation: houseKey .8s infinite alternate;
+}
+
+@keyframes houseKey {
+  from {
+    transform: translateY(-10px);
+  }
+  to{
+    transform: translateY(10px);
+  }
+}
