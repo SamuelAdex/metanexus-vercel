@@ -55,6 +55,12 @@ body {
   color: white;
 }
 
+.border-gradient{
+  background: linear-gradient(rgba(0,0,0,0.9), rgba(0,0,0,0.9)) padding-box,
+              linear-gradient(133.97deg, #4FB1F6 0%, #FB18EE 100%) border-box;
+  border: 1px solid transparent;
+}
+
 @layer utilities {
   .text-balance {
     text-wrap: balance;

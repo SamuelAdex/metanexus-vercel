@@ -1,4 +1,5 @@
 import Customized from "@/components/layout/Customized";
+import Features from "@/components/layout/Features";
 import Footer from "@/components/layout/Footer";
 import Gaming from "@/components/layout/Gaming";
 import Header from "@/components/layout/Header";
@@ -27,7 +28,7 @@ export default function Home() {
       <Gaming />
       <Token />
       <Partners />
-      
+      <Features />
       <Whitelist />
       <Footer />
     </main>
