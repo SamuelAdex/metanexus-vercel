@@ -65,6 +65,7 @@ const Features = () => {
                 disableButtonsControls={true}
                 autoPlay
                 animationDuration={1500}
+                infinite={true}
             >
                 {features.map((_, index)=>(
                     <div key={index} className='2xl:w-[389px] md:w-[300px] 2xl:h-[526px] md:h-[400px] rounded-[8px] border-gradient py-10 backdrop-blur-md flex flex-col items-center'>

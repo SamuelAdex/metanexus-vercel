@@ -20,11 +20,60 @@ body {
   background: #090620;
 }
 
+@font-face {
+  font-family: Squids;
+  src: url("../../public/assets/font/Game Of Squids.otf");
+}
+@font-face {
+  font-family: Century;
+  src: url("../../public/assets/font/Century Gothic.ttf");
+}
+@font-face {
+  font-family: Bakbak;
+  src: url("../../public/assets/font/BakbakOne-Regular.ttf");
+}
+@font-face {
+  font-family: Poppins;
+  src: url("../../public/assets/font/Poppins-Regular.ttf");
+}
+
+p{
+  font-family: Poppins;
+}
+
+a{
+  font-family: Squids;
+}
+
+.hero{
+  background: linear-gradient(to bottom, rgba(0, 0, 139, 0), rgba(6, 6, 26, 1)), url('../../public/assets/vid/nexus-hero.gif') no-repeat center center/cover;
+}
+.hero-text{
+  font-family: Squids;
+}
+.century{
+  font-family: Century;
+}
+.bakbak{
+  font-family: Bakbak;
+}
+.poppins{
+  font-family: Poppins;
+}
+
 .trade{
   background: url('../../public/assets/svg/tradeBg.svg');
   background-position: 30%;
   background-size: cover;
   background-repeat: no-repeat;
+}
+
+.text-gradient-outline {
+  background: linear-gradient(180deg, #FD01F4 0%, #23A3FF 100%);
+  /* background: linear-gradient(-45deg, #eeaa52, #e73c6f, #2394d5, #2af3b7); */
+  background-size: 200% 200%;
+  -webkit-background-clip: text;
+  -webkit-text-stroke: 5px transparent;
 }
 
 .social{
@@ -42,7 +91,7 @@ body {
 }
 
 .grd{
-  background-image: linear-gradient(90deg, #64F6FF 5%, #E31CFF 100%);
+  background-image: linear-gradient(90deg, #6bedf4 5%, #E31CFF 100%);
   background-clip: text;
   color: transparent;
 }
@@ -70,6 +119,10 @@ body {
 
 .house{
   animation: houseKey .8s infinite alternate;
+}
+
+.whitelist{
+  background: linear-gradient(to top, rgba(6, 6, 26, 1), rgba(0, 0, 139, 0)) no-repeat center center/cover;
 }
 
 @keyframes houseKey {

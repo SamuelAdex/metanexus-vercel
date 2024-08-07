@@ -39,12 +39,12 @@ const Header = () => {
 
 function MobNav(){
   return (
-    <section className="text-[14px] fixed top-[100px] text-white w-full flex flex-col z-40 gap-5 divide-y backdrop-blur-lg bg-[rgba(0,0,0,0.7)] h-[100dvh]">
-      <Link href={"#"} className='p-3 pt-9 flex flex-col items-center'>MARKETPLACE</Link>
-      <Link href={"#"} className='p-3 pt-9 flex flex-col items-center'>BRAND CENTER</Link>
-      <Link href={"#"} className='p-3 pt-9 flex flex-col items-center'>CONTENT CREATOR</Link>
-      <Link href={"#"} className='p-3 pt-9 flex flex-col items-center'>TEAM</Link>
-      <Link href={"#"} className='p-3 pt-9 flex flex-col items-center'>INFO</Link>
+    <section className="text-[14px] fixed top-[100px] text-white w-full md:hidden flex flex-col z-40 gap-5 divide-y backdrop-blur-lg bg-[rgba(0,0,0,0.7)] h-[100dvh]">
+      <Link href={"#"} className='p-3 pt-9 flex flex-col items-center bakbak'>MARKETPLACE</Link>
+      <Link href={"#"} className='p-3 pt-9 flex flex-col items-center bakbak'>BRAND CENTER</Link>
+      <Link href={"#"} className='p-3 pt-9 flex flex-col items-center bakbak'>CONTENT CREATOR</Link>
+      <Link href={"#"} className='p-3 pt-9 flex flex-col items-center bakbak'>TEAM</Link>
+      <Link href={"#"} className='p-3 pt-9 flex flex-col items-center bakbak'>INFO</Link>
       <Button text={'LOGIN'} btnStyle={"text-white p-3 w-[400px] mx-auto mx-[0px]"} />
       
     </section>
