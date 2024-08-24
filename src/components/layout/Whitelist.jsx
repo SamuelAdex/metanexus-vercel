@@ -9,7 +9,7 @@ import GradientHeading from '../elements/GradientHeading';
 
 const Whitelist = () => {
   return (
-    <section className='relative md:mt-[15rem] mt-[6rem] whitelist'>
+    <section className='relative md:mt-[-12rem] mt-[6rem] whitelist'>
         {/* <Image src={gradient} alt='' /> */}
         <Image src={WhiteBg} className='opacity-[75%]' alt='' />
         <div className='2xl:w-[742px] absolute md:w-[660px] space-y-5 md:top-[80px] top-[30px] md:px-14 px-10'>

@@ -28,7 +28,7 @@ export default function Home() {
       <Gaming />
       <Token />
       <Partners />
-      <Features />
+      {/* <Features /> */}
       <Whitelist />
       <Footer />
     </main>

@@ -10,7 +10,7 @@ const Hero = () => {
             <h1 className='md:text-[70px] text-white
             font-bold leading-[70px] text-[40px] text-gradient-outline hero-text'>WELCOME TO THE METANEXUS WORLD</h1>
             <p className='2xl:text-[29px] md:text-[25px] century text-[15px] font-normal text-white md:w-[700px]'>Embrace the future and explore Metanexus, the groundbreaking ecosystem bridging virtual and real-world experiences!</p>
-            <Button text={"LEARN MORE"} btnStyle={"text-white p-2 md:w-[234px]"} />
+            {/* <Button text={"LEARN MORE"} btnStyle={"text-white p-2 md:w-[234px]"} /> */}
         </div>
     </section>
   )
