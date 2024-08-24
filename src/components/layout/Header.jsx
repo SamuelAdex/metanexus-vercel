@@ -11,7 +11,7 @@ import { MdClose } from "react-icons/md";
 const Header = () => {
   const [isNav, setIsNav] = useState(false);
   return (
-    <header className="md:w-[95%] flex backdrop-blur-lg z-40 px-8 fixed top-0 gap-8 items-center w-full m-auto m-[0px] md:p-0 p-6">
+    <header className="md:w-[95%] flex backdrop-blur-lg z-40 md:px-8 fixed top-0 gap-8 items-center w-full m-auto m-[0px] md:p-0 p-6">
         <div className='flex-[0.4]'>
             <Image src={Logo} className='md:w-[86px] w-[60px]  md:h-[86px] h-[60px]' alt='' />
         </div>
